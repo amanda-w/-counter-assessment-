@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: lightgray;
+    border: lightgray;
+    font-size: 40px;
+}
+
+input {
+    width: 110px;
+    height: 65px;
+    text-align: center;
+    border-radius: 8px;
+    border-color: lightgray;
+    border-style: solid;
+    font-size: 30px;
+    border-width: 3px;
+}
+
+button:hover {
+    color: lightgray;
+    background-color: white;
+    border-color: lightgray;
+    border: 5px;
+}
